@@ -1,0 +1,42 @@
+@charset "utf-8";
+/*******************通用样式******************/
+*{margin: 0; padding: 0;}
+html,body{
+	width:100%;height:100%;
+}
+body{
+	/*background:url('http://www.snsads2.com:80/cj/images/slot/bg.jpg') no-repeat 0 0;*/
+	/*background-size:100% auto;*/
+	overflow-y:auto;overflow-x:hidden;
+}
+body:after{
+	/*content:'';
+	position:fixed;top:0;left:0;z-index:-1;
+	width:100%;height:100%;
+	background:url('http://www.snsads2.com:80/cj/images/slot/bg.jpg') no-repeat 0 0;
+	background-size:100% 100%;*/
+}
+body,button,input,select,textarea{
+    font:normal 188%/1.5 arial;
+}
+button,input,select,textarea{/* 表单元素并不继承父级font */
+	font-size: 1em;
+}
+ul,ol{/* 去掉列表前的标识，li 会继承 */
+    list-style: none;
+}
+table{border-collapse:collapse;border-spacing:0;} 
+fieldset,img{border:0;}
+.none{display:none;}
+.hidden{visibility:hidden;}
+.fl,.fr{display:inline;}
+.fl{float:left;}
+.fr{float:right;}
+.cl{clear:left;}
+.cr{clear:right;}
+.clearfix{clear:both;}
+.pr{position:relative}
+.pa{position:absolute}
+.tl{text-align:left}
+.tc{text-alihn:center}
+.tr{text-align:right}
